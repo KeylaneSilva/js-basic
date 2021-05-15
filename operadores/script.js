@@ -1,34 +1,31 @@
-// funcition - verbo + substantivo
-//sem parametros
+// Operadores Aritimetricos
 
-var game = "Playstation5";
-var preferido;
+let salario = 100;
 
-function videoGame(){
-    preferido = game;
-}
-videoGame(); //chamada de função
-console.log(preferido); //print do resultado
+console.log(salario + salario);
+console.log(salario - salario);
+console.log(salario * salario);
+console.log(salario / salario);
 
-//com paramentros
-function novoGamer(console, modelo){
-   certo = console + modelo;
-}
-novoGamer("videoGame ", "Playtation - Sony");
-console.log(certo);
+// + - * /
 
-// Tipos de funções
-// Realizar uma tarefa, não devolve nada 
+let idade = 21;
+console.log(idade++);
+console.log(idade--);
+console.log(idade);
 
-function dizerNome(){
-    console.log("Keylane");
-}
-dizerNome();
+// Operadores de atribuição
 
-function multiplicarPorDois(valor){
-    return valor * 2;
-}
-console.log(multiplicarPorDois(19));
-var resultado = multiplicarPorDois(10);
-console.log(resultado);
+let monitorGamer = 900;
+console.log(monitorGamer += monitorGamer); //+
+console.log(monitorGamer -= monitorGamer); //-
 
+//Operadores de igualdade
+
+console.log(1 === 1);
+console.log("1" === 1);
+
+// Operador ternario
+let pontos = 100;
+let tipo = pontos > 100 ? 'premium' : 'comum';
+console.log(tipo);
